@@ -1,0 +1,50 @@
+.NowPlaying__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.NowPlaying__title {
+  display: inline-block;
+  position: relative;
+  padding-right: 20px;
+}
+.NowPlaying__title::after {
+  content: url("../../../../public//sound.png");
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.NowPlaying__content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  text-align: center;
+}
+.NowPlaying__image {
+  background-image: url("../../../../public/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.NowPlaying__image img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.NowPlaying__content h2 {
+  font-weight: 700;
+  font-size: 18px;
+  width: clamp(0ch, 100%, 20ch);
+  overflow: hidden; /* Обрезает содержимое, выходящее за границы блока */
+  text-overflow: ellipsis; /* Добавляет многоточие в конце обрезанного текста */
+  margin: 0 auto;
+}
+.NowPlaying__content h3 {
+  width: clamp(0ch, 100%, 20ch);
+  font-size: 14px;
+  overflow: hidden; /* Обрезает содержимое, выходящее за границы блока */
+  text-overflow: ellipsis; /* Добавляет многоточие в конце обрезанного текста */
+  margin: 0 auto;
+}

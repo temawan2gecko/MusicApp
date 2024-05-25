@@ -1,0 +1,43 @@
+.navigation_wrapper {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 100vh;
+    background: linear-gradient(#0F0D20,#1E293B,#4D25AE);
+    padding: 45px;
+    max-width: 200px;
+    width: 100%;
+}
+.navigation__logo {
+    text-align: center;
+}
+.navigation__libary {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.navigation__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.itemList1, .itemList2 {
+    position: relative;
+    padding-left: 20px;
+}
+.itemList1::before {
+    content: url('../../assets/fire.png');
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.itemList2::before {
+    content: url('../../assets/music-svgrepo-com.svg');
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 2px;
+}
+

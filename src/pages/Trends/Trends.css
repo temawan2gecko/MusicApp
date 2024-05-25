@@ -1,0 +1,26 @@
+.trends__wrapper {
+  padding: 50px;
+  flex: 3;
+  border-right: 2px solid rgba(227, 62, 159, 0.7);
+  border-left: 2px solid rgba(227, 62, 159, 0.7);
+  background: linear-gradient(to right, #4d25ae, #1e293b, #0f0d20);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+.trendsItem__title {
+  font-size: 36px !important;
+}
+.trends__content {
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  height: 78vh;
+  border: 1px solid rgba(15, 13, 32, 0.5);
+}

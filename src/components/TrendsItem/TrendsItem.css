@@ -1,0 +1,37 @@
+.trendsItem__wrapper {
+  flex-basis: 300px;
+  text-align: center;
+  height: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.trendsItem__image {
+  max-width: 150px;
+  max-height: 150px;
+  width: 100%;
+  height: 100%;
+}
+.trendsItem__image img {
+  border-radius: 50%;
+}
+.trendsItem__wrapper h2 {
+  width: clamp(0ch, 100%, 20ch);
+  overflow: hidden; /* Обрезает содержимое, выходящее за границы блока */
+  text-overflow: ellipsis; /* Добавляет многоточие в конце обрезанного текста */
+  margin: 0 auto;
+  font-size: 12px;
+}
+.trendsItem__wrapper h3 {
+  width: clamp(0ch, 100%, 50ch);
+  overflow: hidden; /* Обрезает содержимое, выходящее за границы блока */
+  text-overflow: ellipsis; /* Добавляет многоточие в конце обрезанного текста */
+  margin: 0 auto;
+  font-size: 10px;
+  color: #e2e8f0;
+}

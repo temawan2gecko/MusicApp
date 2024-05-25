@@ -1,0 +1,167 @@
+/* RESET CSS */
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.6s ease 0s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #FE476E;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+/* Main style */
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* Стилизация для Chrome, Edge и Safari */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(15, 13, 32);
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(15, 13, 32) transparent;
+}
+
+/* Убираем стрелочки в IE и Edge */
+.scrollbar {
+  -ms-overflow-style: none;  /* Убираем скроллбар в IE и Edge */
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;  /* Убираем скроллбар в Chrome, Safari и Opera */
+}
+
+
+
+

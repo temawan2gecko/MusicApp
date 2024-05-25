@@ -1,0 +1,29 @@
+.card__wrapper {
+  height: 100vh;
+  border-right: 2px solid rgba(227, 62, 159, 0.7);
+  border-left: 2px solid rgba(227, 62, 159, 0.7);
+  background: linear-gradient(to right, #4d25ae, #1e293b, #0f0d20);
+  text-align: center;
+  padding: 40px;
+}
+.card__title {
+    margin-bottom: 20px;
+}
+.bubbles__wrapper {
+  position: relative;
+  height: 85vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.bubble {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(to right, #FCACEE, #FFA1B5, #FE476E, #E33E9F);
+  border-radius: 50%;
+  opacity: 0.8;
+}

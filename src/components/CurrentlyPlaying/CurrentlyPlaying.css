@@ -1,0 +1,16 @@
+.currentlyPlaying__wrapper {
+    flex: 1;
+    height: 100vh;
+    background: linear-gradient(#0F0D20,#1E293B,#4D25AE);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.scroll__current {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    padding: 20px;
+}
